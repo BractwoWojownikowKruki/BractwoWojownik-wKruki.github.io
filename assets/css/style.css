@@ -1597,10 +1597,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/footer-bg.jpg") center no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   position: relative;
+
 }
 
 #footer::before {
@@ -1610,7 +1612,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.55);
   z-index: 1;
 }
 
